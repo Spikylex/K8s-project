@@ -1,0 +1,7 @@
+Thank you for installing {{ .Chart.Name }}
+
+Your release is named {{ .Release.Name }}
+
+To check the status of your deployment:
+ kubectl get pods
+ kubectl get svc

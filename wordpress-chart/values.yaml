@@ -1,0 +1,12 @@
+db:
+  rootPassword: somewordpress
+  name: wordpress
+  user: wordpress
+  password: wordpress
+  storage: 2Gi
+  image: 992382545251.dkr.ecr.us-east-1.amazonaws.com/alex-repository:mariadb
+
+wordpress:
+  image: 992382545251.dkr.ecr.us-east-1.amazonaws.com/alex-repository:wordpress
+  replicas: 2
+  host: wordpress.local
