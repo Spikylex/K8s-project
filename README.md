@@ -1,4 +1,4 @@
-WordPress on Kubernetes (Helm Chart)
+WordPress on Kubernetes(Minikube) (Helm Chart)
 
 Deploys WordPress + MariaDB on Kubernetes, migrated from the official docker/awesome-compose WordPress example, fronted by an NGINX Ingress Controller, with Grafana/Prometheus monitoring for container uptime.
 
