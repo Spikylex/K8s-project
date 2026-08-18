@@ -40,7 +40,6 @@ Before installing this chart, you need a working cluster and toolchain:
 - sudo mkswap /swapfile
 - sudo swapon /swapfile
 - echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-- ```
 
 ## Configuration
 Edit "wordpress-chart/values.yaml" before installing:
